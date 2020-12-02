@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
+<url>
+  <loc>https://nafu-gh.github.io/</loc>
+  <priority>1.0</priority>
+  <lastmod>2020-12-02T01:57:44+09:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://nafu-gh.github.io/about/</loc>
+  <priority>0.8</priority>
+  <lastmod>2020-11-28T16:54:19+09:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://nafu-gh.github.io/biyou/</loc>
+  <priority>0.8</priority>
+  <lastmod>2020-12-01T11:02:25+09:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://nafu-gh.github.io/bungaku/</loc>
+  <priority>0.8</priority>
+  <lastmod>2020-11-28T22:20:14+09:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://nafu-gh.github.io/sixyakai/</loc>
+  <priority>0.8</priority>
+  <lastmod>2020-11-22T19:04:03+09:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://nafu-gh.github.io/zakki/</loc>
+  <priority>0.8</priority>
+  <lastmod>2020-12-02T01:57:07+09:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://nafu-gh.github.io/biyou/uvcheck/uvcheck.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-12-01T11:02:25+09:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://nafu-gh.github.io/biyou/uvcream/uvc.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-12-01T11:02:25+09:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://nafu-gh.github.io/bungaku/sw/sw.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-11-28T22:20:14+09:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://nafu-gh.github.io/zakki/musino/musino.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2020-12-02T01:57:07+09:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://nafu-gh.github.io/biyou/index.html</loc>
+  <priority>0.6</priority>
+  <lastmod>2020-12-01T11:02:25+09:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://nafu-gh.github.io/bungaku/index.html</loc>
+  <priority>0.6</priority>
+  <lastmod>2020-11-28T22:20:14+09:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://nafu-gh.github.io/zakki/index.html</loc>
+  <priority>0.6</priority>
+  <lastmod>2020-12-02T01:57:07+09:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+
+</urlset>
