@@ -3,6 +3,11 @@ body,h1,h2,h3,p,ul,li {
 	margin: 0;
 	padding: 0;
 }
+/* reset&common */
+body,h1,h2,h3,p,ul,li {
+	margin: 0;
+	padding: 0;
+}
 
 img {
 	border: none;
@@ -30,18 +35,12 @@ body {
 
 header,footer {
 	background-color: #666;
-	/* background-color: #59514c; */
 }
-header a{
-	color:#dddddd;
-}
-header a:hover,small{
+header a,small{
 	color:#f7f7f7;
-	
 }
 
 /* reset&common */
-
 
 #toTop {
 	width: 40px;
@@ -58,7 +57,7 @@ header a:hover,small{
 
 /*drawer↓*/
 #drawer {
-    position: fixed; z-index: 20;
+    position: fixed; z-index: 1;
 top: -124px;
 background-color:rgba(1,1,1,0.8);
 height:124px;
@@ -112,7 +111,6 @@ header a {
 	float: left;
 	border-radius: 50%;
 }
-
 .headerT{
 	float:left;
 	color: #f7f7f7;
@@ -182,49 +180,30 @@ input:checked+#navToggle span::after{
       }
 /*三x*/
 
-
 .navWide {
 	display: none;
 }
 
 /*header*/
+
 .mv {
-	position: relative;
-    width: 100%;
     margin: 0 auto;
-}
-.mv h1{
-	z-index: 8;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	text-shadow: 1px 1px 0 #f7f7f7,
-               -1px 1px 0 #f7f7f7,
-               1px -1px 0 #f7f7f7,
-               -1px -1px 0 #f7f7f7;
-  text-shadow: 1px 1px 1px #f7f7f7,
-               -1px 1px 1px #f7f7f7,
-               1px -1px 1px #f7f7f7,
-               -1px -1px 1px #f7f7f7;
 }
 
 main {
 	padding-top: 80px;
+	padding-bottom: 20px;
 }
 
-.image {
-	margin-top: 6%;
-	margin-bottom: 6%;
+article section {
+	margin-top: 4%;
+	margin-bottom: 4%;
 }
 
-main h1,main h2{
-	/* font-size: 20px; */
+main h1{
 	font-size: 3vw;
 }
-
-main p{
-/* font-size: 12px; */
+main p,main h2{
 font-size: 2vw;
 }
 
@@ -236,8 +215,11 @@ table{
 }
 
 .tc{
-	font-size: 1vw;
-	padding-left: 2%;
+	font-size: 2vw;
+	padding-left: 8%;
+}
+.tc li{
+	list-style-type: square;
 }
 
 .red{
@@ -247,6 +229,14 @@ table{
 	border-bottom: #666 solid 1px;
 }
 
+.separator{
+	background-image: url();
+	background-size: 100%;
+	background-attachment:fixed;
+	height: 30px;
+	overflow: hidden;
+}
+
 .clearfix::after{
 	content: "";
 	display: block;
@@ -254,8 +244,18 @@ table{
 }
 
 
-article {
-	padding-top: 2%;
+.imground{
+	border-radius: 100px;
+}
+
+.link {
+	padding-top: 3%;
+	padding-bottom: 3%;
+
+}
+.link h2{
+	text-align: center;
+	font-size: 2.8vw;
 }
 
 .image .landr{
@@ -272,6 +272,7 @@ article {
 	padding-right: 2%;
 	padding-bottom: 1%;
 }
+
 .image .verticalr{
 	float: right;
 	width:40%;
@@ -280,7 +281,7 @@ article {
 	padding-bottom: 1%;
 }
 .image .verticall{
-	float:left;
+	float: left;
 	width:40%;
 	padding-top: 1%;
 	padding-right: 2%;
@@ -291,20 +292,19 @@ article {
 	display: none;
 } */
 
-article{
+.title,article{
     width: 80%;
     margin-right:auto;
 	margin-left: auto;
 }
 
-.theme aside{
+#theme aside{
 	overflow: scroll;
 }
 
 .wrapper{
 	overflow: hidden;
 }
-
 .wrapper div{
 	float:left;
 	width: 60%;
@@ -316,11 +316,20 @@ article{
 	width: 40%;
 }
 
-
-.link h2{
-	text-align: center;
-	font-size: 2.4vw;
+.wrapperb{
+	overflow: hidden;
 }
+.wrapperb div{
+	float: left;
+	width: 40%;
+}
+.wrapperb aside{
+	display: block;
+	float:right;
+	width: 50%;
+}
+
+
 .flex {
 	display: flex;
 	flex-wrap: wrap;
@@ -330,8 +339,8 @@ article{
 }
 .textAnchor li{
 	position: relative;
-	margin-right: 1%;
-	margin-left: 1%;
+	margin-right: 0.7%;
+	margin-left: 0.7%;
 	margin-bottom: 2%;
 	transition: all 0.3s;
 }
@@ -356,6 +365,8 @@ article{
 	overflow: hidden;
 	word-break: break-all;
 }
+
+
 
 
 /*footer*/
@@ -439,29 +450,13 @@ footer small {
 			font-size: 12px;
 		}
 	
-.mv {
+/* .mv {
     width: 80%;
-}
-
-
-/* .image .land{
-	float:right;
-	width:40%;
-	padding-top: 1%;
-	padding-left: 2%;
-	padding-bottom: 1%;
-}
-.image .vertical{
-	float: right;
-	width:35%;
-	padding-top: 1%;
-	padding-left: 2%;
-	padding-bottom: 1%;
 } */
 
+}
 
-
-}/*ここまで@media 480*/
+/*ここまで@media 480*/
 
 
 
@@ -481,14 +476,17 @@ footer small {
 		margin-left: 90px;
 	}
 
-	article {
+
+	.title,article {
 		width: 60%;
 	}
-	.mv {
+
+	/* .mv{
 		width: 60%;
-	}
+	} */
+
 	.mv h1{
-		font-size: 2.2vw;
+		font-size: 2,4vw;
 	}
 
 	main h1{
@@ -497,8 +495,6 @@ footer small {
 	main p,main h2,.tc{
 	font-size: 1.4vw;
 	}
-
-	
 
 }
 /*ここまで@media 768*/
