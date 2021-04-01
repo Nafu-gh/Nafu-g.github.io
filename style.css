@@ -196,6 +196,7 @@ input:checked+#navToggle span::after{
 .mv h1{
 	z-index: 8;
 	position: absolute;
+	font-size: 3vw;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
@@ -218,25 +219,24 @@ main {
 	margin-bottom: 6%;
 }
 
-main h1,main h2{
-	/* font-size: 20px; */
-	font-size: 3vw;
+
+article h1,article h2{
+	font-size: 3.8vw;
 }
 
 main p{
-/* font-size: 12px; */
-font-size: 2vw;
+font-size: 2.8vw;
 }
 
 tr,th,td,time{
-	font-size: 1vw;
+	font-size: 1.8vw;
 }
 table{
 	padding:5%;
 }
 
 .tc{
-	font-size: 1vw;
+	font-size: 1.8vw;
 	padding-left: 2%;
 }
 
@@ -319,7 +319,7 @@ article{
 
 .link h2{
 	text-align: center;
-	font-size: 2.4vw;
+	font-size: 2.8vw;
 }
 .flex {
 	display: flex;
@@ -498,7 +498,10 @@ footer small {
 	font-size: 1.4vw;
 	}
 
-	
+	.link h2{
+		font-size: 2.2vw;
+	}
+
 
 }
 /*ここまで@media 768*/
