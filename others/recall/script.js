@@ -60,7 +60,7 @@ $(window).scroll(function (){
         //ウィンドウの高さを取得
         let height = $(window).height();
         //ターゲットまでスクロールするとフェードインする
-        if (scroll > target - height + 270){
+        if (scroll > target - height + 250){
             //クラスを付与
             $(this).removeClass('gray');
         }
