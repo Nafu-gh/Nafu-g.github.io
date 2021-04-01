@@ -196,15 +196,15 @@ main {
 }
 
 article section {
-	margin-top: 8%;
-	margin-bottom: 8%;
+	margin-top: 7%;
+	margin-bottom: 7%;
 }
 
 main h1{
-	font-size: 3.8vw;
+	font-size: 3.7vw;
 }
 main p,main h2{
-font-size: 2.8vw;
+font-size: 2.7vw;
 }
 
 tr,th,td,time{
@@ -215,7 +215,7 @@ table{
 }
 
 .tc{
-	font-size: 2.8vw;
+	font-size: 2.7vw;
 	padding-left: 8%;
 }
 .tc li{
