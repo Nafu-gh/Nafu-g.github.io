@@ -201,21 +201,21 @@ article section {
 }
 
 main h1{
-	font-size: 3vw;
+	font-size: 3.8vw;
 }
 main p,main h2{
-font-size: 2vw;
+font-size: 2.8vw;
 }
 
 tr,th,td,time{
-	font-size: 1vw;
+	font-size: 1.8vw;
 }
 table{
 	padding:5%;
 }
 
 .tc{
-	font-size: 2vw;
+	font-size: 2.8vw;
 	padding-left: 8%;
 }
 .tc li{
@@ -495,6 +495,10 @@ footer small {
 	main p,main h2,.tc{
 	font-size: 1.4vw;
 	}
+	.link h2{
+		font-size: 2.2vw;
+	}
+
 
 }
 /*ここまで@media 768*/
