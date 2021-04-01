@@ -201,21 +201,21 @@ article section {
 }
 
 main h1{
-	font-size: 3vw;
+	font-size: 3.2vw;
 }
 main p,main h2{
-font-size: 2vw;
+font-size: 2.2vw;
 }
 
 tr,th,td,time{
-	font-size: 1vw;
+	font-size: 1.2vw;
 }
 table{
 	padding:5%;
 }
 
 .tc{
-	font-size: 2vw;
+	font-size: 2.2vw;
 	padding-left: 8%;
 }
 .tc li{
