@@ -201,10 +201,10 @@ article section {
 }
 
 main h1{
-	font-size: 3.7vw;
+	font-size: 3.8vw;
 }
 main p,main h2{
-font-size: 2.7vw;
+font-size: 2.8vw;
 }
 
 tr,th,td,time{
@@ -215,7 +215,7 @@ table{
 }
 
 .tc{
-	font-size: 2.7vw;
+	font-size: 2.8vw;
 	padding-left: 8%;
 }
 .tc li{
