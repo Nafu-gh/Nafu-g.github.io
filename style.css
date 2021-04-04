@@ -50,6 +50,7 @@ header a:hover,small{
 	bottom: 6%;
 	right: 6%;
 	position: fixed;
+	z-index: 2;
 }
 
 .fas{
@@ -228,6 +229,13 @@ main p{
 font-size: 2.8vw;
 }
 
+.fa-twitter-square {
+	color:#666;
+}
+.fa-twitter-square:hover {
+	color: #cccccc;
+}
+
 tr,th,td,time{
 	font-size: 1.8vw;
 }
@@ -366,11 +374,6 @@ footer {
 	height: 100px;
 }
 
-.ftrWrapper {
-	width: 80%;
-	margin: 0 auto;
-	margin-top: 10px;
-}
 
 footer img {
 	width: 60px;
