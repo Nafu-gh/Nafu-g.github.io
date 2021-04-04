@@ -229,10 +229,10 @@ main p{
 font-size: 2.8vw;
 }
 
-.fa-twitter-square {
+.twitter {
 	color:#666;
 }
-.fa-twitter-square:hover {
+.twitter:hover {
 	color: #cccccc;
 }
 
