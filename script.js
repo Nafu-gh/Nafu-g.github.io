@@ -80,3 +80,21 @@ $('.flexslider').flexslider({
 			});
             //drawer↑
             
+
+
+{
+
+
+
+    $(".post").each(function () {
+        let post = $(this).data('post');
+        let keep_day = 30;
+        let old_day = new Date(post);
+        let new_day = new Date();
+        let diff =(new_day - old_day) / (1000 * 24 * 3600);
+        if(diff <= keep_day) {
+            $(this).addClass('new');
+        }
+    });
+
+}
