@@ -50,6 +50,7 @@ header a,small{
 	bottom: 6%;
 	right: 6%;
 	position: fixed;
+	z-index: 2;
 }
 
 .fas{
@@ -345,26 +346,38 @@ table{
 	margin-left: 0.7%;
 	margin-bottom: 2%;
 	transition: all 0.3s;
+	width: 250px;
+}
+.textAnchor li a{
+	display: inline-block;
+	overflow: hidden;
+	height: 100%;
 }
 .textAnchor li:hover{
 	opacity: 0.7;
+	overflow: hidden;
 }
 .textAnchor li img{
-	width: 250px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: all .3s;
 }
-.textAnchor li a:last-child{
+.textAnchor li:hover img{
+	transform: scale(1.1);
+}
+.textAnchor li span{
 	position:absolute;
+	display: inline-block;
 	bottom: 0;
 	left: 0;
 	color:#f7f7f7;
 	font-size: 15px;
 	background:rgba(0,0,0,.5);
 	width: 250px;
-	line-height: 25px;
 	height: 50px;
 	padding-right: 5%;
 	padding-left: 5%;
-	overflow: hidden;
 	word-break: break-all;
 }
 
@@ -395,6 +408,34 @@ footer small {
 	padding-top: 5px;
 }
 /*footer*/
+
+
+.new::before{
+    border-color: #ead61e transparent transparent transparent;
+    border-style: solid;
+    border-width: 60px 60px 0 0;
+    content: "";
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    z-index: 2;
+}
+.new::after{
+    color: #000;
+    content: "NEW";
+    font-size: .8rem;
+    font-weight: 700;
+    position: absolute;
+    top: 13px;
+    left: 6px;
+    transform: rotate(-45deg);
+    z-index: 3;
+  }
+
+
+
 
 
 /*ここから@media 480より上*/
