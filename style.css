@@ -1,7 +1,16 @@
 /* reset&common */
+
+html{
+	font-size: 62.5%;
+}
+
 body,h1,h2,h3,p,ul,li {
 	margin: 0;
 	padding: 0;
+}
+
+body{
+	letter-spacing: 0.25em;
 }
 
 img {
@@ -324,10 +333,12 @@ article{
 	width: 40%;
 }
 
-
+.link{
+	padding-bottom: 40px;
+}
 .link h2{
 	text-align: center;
-	font-size: 2.8vw;
+	font-size: 2rem;
 }
 .flex {
 	display: flex;
@@ -540,7 +551,8 @@ footer small {
 	}
 
 	.link h2{
-		font-size: 2.2vw;
+		font-size: 2.4rem;
+		line-height: 3.36;
 	}
 
 
