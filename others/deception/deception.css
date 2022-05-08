@@ -7,18 +7,14 @@ html{
 body,h1,h2,h3,p,ul,li {
 	margin: 0;
 	padding: 0;
-}
-body{
 	letter-spacing: 0.25em;
 }
-
 
 img {
 	border: none;
 	width: 100%;
 	vertical-align: bottom;
 }
-
 
 ul {
 	list-style-type: none;
@@ -35,7 +31,7 @@ a {
 body {
 	color: #666;
 	background-color: #f7f7f7;
-  font-family:cursive;
+  	font-family:cursive;
 }
 
 header,footer {
@@ -54,7 +50,6 @@ header a,small{
 	bottom: 6%;
 	right: 6%;
 	position: fixed;
-	z-index: 2;
 }
 
 .fas{
@@ -193,12 +188,12 @@ input:checked+#navToggle span::after{
 /*header*/
 
 .mv {
-	width: 100%;
-	height: 35vw;
-background-image: url(images/book1920720.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
+    margin: 0 auto;
+}
+.mv img{
+	width: 100vw;
+	height: 56.24959vw;
+	object-fit: cover;
 }
 
 main {
@@ -206,27 +201,36 @@ main {
 	padding-bottom: 20px;
 }
 
-article  {
-	margin-top: 3%;
-	margin-bottom: 3%;
+article section {
+	margin-top: 6%;
+	margin-bottom: 6%;
 }
 
 main h1{
-	font-size: 3.2vw;
+	font-size: 2.4rem;
+	line-height: 3.36em;
 }
-main p,main h2{
-font-size: 2.2vw;
+main h2{
+	font-size: 1.8rem;
+	}
+main p{
+font-size: 1.4rem;
+line-height: 1.68em;
 }
 
 tr,th,td,time{
-	font-size: 1vw;
+	font-size: 1.2rem;
+}
+time{
+	margin-bottom: 5px;
+	display: block;
 }
 table{
 	padding:5%;
 }
 
 .tc{
-	font-size: 2.2vw;
+	font-size: 1.4rem;
 	padding-left: 8%;
 }
 .tc li{
@@ -259,21 +263,34 @@ table{
 	border-radius: 100px;
 }
 
+article {
+	padding: 5% 0;
+}
 
 .image .landr{
 	float:right;
-	width:30%;
+	/* width:50vw;
+	height: 33.38235vw; */
+	object-fit: cover;
 	padding-top: 1%;
-	padding-right: 2px;
+	/* padding-left: 5%; */
 	padding-bottom: 1%;
 }
 .image .landl{
 	float:left;
-	width:25%;
+	/* width:50vw;
+	height: 33.38235vw; */
+	object-fit: cover;
 	padding-top: 1%;
-	padding-right: 2%;
+	/* padding-right: 5%; */
 	padding-bottom: 1%;
 }
+
+.image .landr,.image .landl{
+	width: 80vw;
+	height: 53.41176vw;
+}
+
 
 .image .verticalr{
 	float: right;
@@ -332,59 +349,12 @@ table{
 }
 
 
-.link h2{
-	text-align: center;
-	font-size: 2.8vw;
-}
-
 .flex {
 	display: flex;
-	flex-wrap: wrap;
+	flex-flow: row wrap;
 	justify-content: center;
-	/* align-items: flex-start;
-	flex-flow: row wrap; */
+	align-items: flex-start;
 }
-.textAnchor li{
-	position: relative;
-	margin-right: 0.7%;
-	margin-left: 0.7%;
-	margin-bottom: 2%;
-	transition: all 0.3s;
-	width: 250px;
-}
-.textAnchor li a{
-	display: inline-block;
-	overflow: hidden;
-	height: 100%;
-}
-.textAnchor li:hover{
-	opacity: 0.7;
-	overflow: hidden;
-}
-.textAnchor li img{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	transition: all .3s;
-}
-.textAnchor li:hover img{
-	transform: scale(1.1);
-}
-.textAnchor li span{
-	position:absolute;
-	display: inline-block;
-	bottom: 0;
-	left: 0;
-	color:#f7f7f7;
-	font-size: 15px;
-	background:rgba(0,0,0,.5);
-	width: 250px;
-	height: 50px;
-	padding-right: 5%;
-	padding-left: 5%;
-	word-break: break-all;
-}
-
 
 /*footer*/
 footer {
@@ -412,34 +382,6 @@ footer small {
 	padding-top: 5px;
 }
 /*footer*/
-
-
-.new::before{
-    border-color: #ead61e transparent transparent transparent;
-    border-style: solid;
-    border-width: 60px 60px 0 0;
-    content: "";
-    height: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    z-index: 2;
-}
-.new::after{
-    color: #000;
-    content: "NEW";
-    font-size: .8rem;
-    font-weight: 700;
-    position: absolute;
-    top: 13px;
-    left: 6px;
-    transform: rotate(-45deg);
-    z-index: 3;
-  }
-
-
-
 
 
 /*ここから@media 480より上*/
@@ -495,6 +437,25 @@ footer small {
 			font-size: 12px;
 		}
 	
+.mv {
+    width: 80%;
+
+}
+.mv img{
+    width: 80vw;
+	height: 44.99967vw;
+}
+.image .landr,.image .landl{
+	width: 40vw;
+	height: 26.70588vw;
+}
+.image .landr{
+	padding-left: 5%;
+}
+.image .landl{
+	padding-right: 5%;
+}
+
 
 }
 
@@ -522,20 +483,30 @@ footer small {
 	.title,article {
 		width: 60%;
 	}
-
+	.mv{
+		width: 60%;
+	}
+	.mv img{
+		width: 60vw;
+		height: 33.74975vw;
+	}
 	.mv h1{
-		font-size: 2,4vw;
+		font-size: 2.8rem;
 	}
 
 	main h1{
-		font-size: 2.4vw;
+		font-size: 2.8rem;
 	}
-	main p,main h2,.tc{
-	font-size: 1.4vw;
-	}
-
-	.link h2{
-		font-size: 2.2vw;
+	main h2{
+		font-size: 2rem;
+		}
+	main p,.tc{
+		font-size: 1.6rem;
+		line-height: 1.92em;
+		}
+	.image .landr,.image .landl{
+		width: 30vw;
+		height: 20.02941vw;
 	}
 
 }
