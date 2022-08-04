@@ -205,10 +205,15 @@ article section {
 	margin-top: 6%;
 	margin-bottom: 6%;
 }
+.title h1{
+	line-height: 1.4;
+	padding: 20px 0;
+}
 
 main h1{
 	font-size: 2.4rem;
-	line-height: 3.36em;
+	/* line-height: 3.36em;
+	line-height: 1; */
 }
 main h2{
 	font-size: 1.8rem;
